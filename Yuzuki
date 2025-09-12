@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <font face ="Meiryo">
+  <meta charset="UTF-8">
+  <title>招待状</title>
+
+  <body background="backimage.jpg">
+  </body>
+
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      color: #4b2e2e;
+      padding: 50px;
+      text-align: center;-->
+    }
+
+
+
+<!-- アニメーションの定義 -->
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+<!-- アニメーションの定義 -->
+
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #a9746e;
+    }
+
+    .decorative-line {
+      margin: 20px auto;
+      width: 80%;
+      height: 1px;
+      background-color: #d6b8a6;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      margin-bottom: 20px;
+      animation: fadeIn 4s ease 0.5s backwards;
+    }
+
+    .signature {
+      margin-top: 40px;
+      font-style: italic;
+    }
+
+    .rsvp {
+      margin-top: 30px;
+      font-weight: bold;
+      color: #7b4e4e;
+    }
+  </style>
+
+</head>
+<body>
+  <font color="yellow">
+  <div class="invitation-container">
+    <h1>Birthday Dating Invitaion</h1>
+    <div class="decorative-line"></div>
+
+    <p><strong>ゆづき</strong> へ</p>
+
+    <p>
+      今年もゆづきの誕生日をお祝いしたくて<br>
+      ささやかだけど、特別なデートを準備したよ。<br>
+    </p>
+
+    <p>
+      <strong>Oct/11-14,2025, in Tokyo</strong><br>
+    </p>
+
+    <p>
+    思い出を写真に☞
+    <!--セルフ写真館のボタン -->
+    <a href="https://genicbooth.com/#concept" target="_blank" class="btn">Genicbooth</a>
+    </p>
+
+    <p>
+    Dinner Restaurant☞
+    <!-- レストランリンクのボタン -->
+    <a href="https://primetokyo-shinjyuku.owst.jp/gallery" target="_blank" class="btn">Prime Tokyo</a>
+    </p>
+
+    <p>
+      <br>
+      ゆづきと一緒に共有できるのを楽しみにしてるね。
+    </p>
+
+    <p class="signature">
+      愛してるよ。<br>
+      ゆうき より
+    </p>
+
+</font>
+
+</body>
+</html>
